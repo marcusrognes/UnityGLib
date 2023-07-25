@@ -8,5 +8,9 @@
     "architecture",
     "ai"
   ],
-  "category": "Tools"
+  "category": "Tools",
+  "dependencies": {
+    "com.unity.multiplayer.tools": "1.1.0",
+    "com.unity.netcode.gameobjects": "1.4.0"
+  }
 }
