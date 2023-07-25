@@ -1,0 +1,12 @@
+{
+  "name": "guru.rognes.glib",
+  "displayName": "GLib",
+  "version": "1.0.0",
+  "unity": "2022.3",
+  "description": "Helper library for unity",
+  "keywords": [
+    "architecture",
+    "ai"
+  ],
+  "category": "Tools"
+}
