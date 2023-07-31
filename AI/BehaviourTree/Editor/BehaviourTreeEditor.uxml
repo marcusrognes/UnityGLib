@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Packages/GLib/AI/BehaviourTree/Editor/BehaviourTreeEditor.uss?fileID=7433441132597879392&amp;guid=9742718a46432fc44841a3945c1b6254&amp;type=3#BehaviourTreeEditor" />
+    <GLib.AI.BehaviourTree.Editor.SplitView fixed-pane-initial-dimension="300">
+        <ui:VisualElement name="left-panel" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+            <uie:Toolbar>
+                <uie:ToolbarBreadcrumbs>
+                    <ui:Label tabindex="-1" text="Inspector" display-tooltip-when-elided="true" />
+                </uie:ToolbarBreadcrumbs>
+            </uie:Toolbar>
+            <GLib.AI.BehaviourTree.Editor.InspectorView />
+        </ui:VisualElement>
+        <ui:VisualElement name="right-panel" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+            <uie:Toolbar>
+                <uie:ToolbarBreadcrumbs name="ToolbarBreadcrumbs">
+                    <ui:Label tabindex="-1" text="Tree View" display-tooltip-when-elided="true" />
+                </uie:ToolbarBreadcrumbs>
+            </uie:Toolbar>
+            <GLib.AI.BehaviourTree.Editor.BehaviourTreeView focusable="true" name="BehaviourTreeView" style="flex-grow: 1;" />
+        </ui:VisualElement>
+    </GLib.AI.BehaviourTree.Editor.SplitView>
+</ui:UXML>
